@@ -10,3 +10,4 @@ passlib
 requests
 SQLAlchemy
 urllib3
+flask_jwt_extended
