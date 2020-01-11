@@ -1,0 +1,12 @@
+Flask
+Flask-Mail
+Flask-RESTful
+Flask-SQLAlchemy
+google
+google-auth
+jsonschema
+mysqlclient
+passlib
+requests
+SQLAlchemy
+urllib3
