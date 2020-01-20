@@ -14,7 +14,6 @@ api.add_resource(resources.VerifyResource, '/verify')
 
 
 @app.route('/', methods=['GET'])
-@jwt_required
 def index():
     return jsonify({
         'info': {
