@@ -43,3 +43,4 @@ SERVER_HOST = ''
 SSL = 'http'
 
 GOOGLE_CLIENT_ID = ''
+CORS_HEADERS = 'Content-Type'

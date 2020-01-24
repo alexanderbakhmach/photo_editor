@@ -2,7 +2,7 @@ from . import app
 from . import jsonify
 from . import api
 from . import resources
-from . import jwt_required
+
 
 api.add_resource(resources.SignInResource, '/sign-in')
 api.add_resource(resources.SignInSocialResource, '/sign-in/social')

@@ -25,6 +25,8 @@ from flask_jwt_extended import create_access_token
 from flask_jwt_extended import jwt_required
 from flask_jwt_extended import jwt_refresh_token_required
 from flask_jwt_extended import get_jwt_identity
+from flask_cors import CORS
+from flask_cors import cross_origin
 from flask_jwt_extended import get_raw_jwt
 
 from functools import wraps
@@ -52,6 +54,10 @@ api = Api(app)
 jwt = JWTManager(app)
 
 mail = Mail(app)
+
+# Add CORS support
+cors = CORS(app)
+
 
 from . import models
 from . import errors
